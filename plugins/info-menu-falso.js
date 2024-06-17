@@ -118,7 +118,7 @@ let menu = `╭──────༺♡༻──────╮
 
 
 ╭──────༺♡༻──────╮
-        *TUS ESTADISTICAS*
+        *TUS ESTADISTICAS**
          
 ➢ 🎱 NIVEL ${emoji} || ${user.exp - min}/${xp}
 ➢ 🥇 EXPERIENCIA  ➪ ${exp}
