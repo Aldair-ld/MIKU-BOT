@@ -2,16 +2,20 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
   let user = global.db.data.users[m.sender];
 
   if (command === 'personaje') {
-    if (text.includes('|') && text.split('|').length === 2) {
-      let [personaje, biografia] = text.split('|').map(v => v.trim());
-
-      user.personaje = personaje;
-      user.biografia = biografia;
-
-      return conn.reply(m.chat, `Registro completado:\n\n🎭 *Personaje:* ${personaje}\n📝 *Biografía:* ${biografia}`, m);
-    } else {
+    if (!text.includes('|')) {
       return conn.reply(m.chat, `Uso incorrecto del comando. Por favor, usa el formato:\n${usedPrefix}personaje personaje|biografía`, m);
     }
+
+    let [personaje, biografia] = text.split('|').map(v => v.trim());
+
+    if (!personaje || !biografia) {
+      return conn.reply(m.chat, `Uso incorrecto del comando. Por favor, usa el formato:\n${usedPrefix}personaje personaje|biografía`, m);
+    }
+
+    user.personaje = personaje;
+    user.biografia = biografia;
+
+    return conn.reply(m.chat, `Registro completado:\n\n🎭 *Personaje:* ${personaje}\n📝 *Biografía:* ${biografia}`, m);
   }
 
   if (command === 'mirol') {
@@ -24,7 +28,12 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
 🎭 *Personaje:* ${user.personaje}
 📝 *Biografía:* ${user.biografia}`;
 
-    await conn.sendMessage(m.chat, mensaje, { quoted: m });
+    try {
+      await conn.sendMessage(m.chat, { text: mensaje }, { quoted: m });
+    } catch (error) {
+      console.error('Error al enviar mensaje:', error);
+      conn.reply(m.chat, 'Ocurrió un error al enviar el mensaje. Por favor, intenta de nuevo más tarde.', m);
+    }
   }
 };
 
