@@ -1,47 +1,36 @@
-let userRoles = {};
+let handler = async (m, { conn, text, command, usedPrefix }) => {
+  let user = global.db.data.users[m.sender];
 
-let handler = async function (m, { conn, text, command, usedPrefix }) {
-    let fkontak = { 
-        "key": { "participants": "0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" },
-        "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` } },
-        "participant": "0@s.whatsapp.net" 
-    };
+  if (command === 'personaje') {
+    let [personaje, nombre, biografia] = text.split('|').map(v => v.trim());
 
-    let user = global.db.data.users[m.sender];
-
-    if (!userRoles[m.sender]) {
-        userRoles[m.sender] = {
-            step: 0,
-            role: '',
-            bio: ''
-        };
+    if (!personaje || !nombre || !biografia || !m.quoted || !m.quoted.mtype.includes('imageMessage')) {
+      return conn.reply(m.chat, `Uso incorrecto del comando. Por favor, usa el formato:\n .personaje|nombre|biografía\nY responde a este comando con una foto de tu personaje.`, m);
     }
 
-    let userRole = userRoles[m.sender];
+    let foto = m.quoted.url;
+    user.personaje = personaje;
+    user.nombre = nombre;
+    user.biografia = biografia;
+    user.foto = foto;
 
-    if (command === 'personaje') {
-        if (userRole.step === 0) {
-            userRole.step = 1;
-            return conn.reply(m.chat, `Escribe el nombre de tu personaje:`, fkontak, m);
-        } else if (userRole.step === 1) {
-            userRole.role = text.trim();
-            userRole.step = 2;
-            return conn.reply(m.chat, `Escribe tu biografía:`, fkontak, m);
-        } else if (userRole.step === 2) {
-            userRole.bio = text.trim();
-            user.role = userRole.role;
-            user.bio = userRole.bio;
-            userRole.step = 0;
-            return conn.reply(m.chat, `Registro completado!\n\nRol: ${user.role}\nBiografía: ${user.bio}`, fkontak, m);
-        }
-    } else if (command === 'mirol') {
-        if (user.role && user.bio) {
-            return conn.reply(m.chat, `Su rol: ${user.role}\n\nBiografía: ${user.bio}`, fkontak, m);
-        } else {
-            return conn.reply(m.chat, `No ha registrado un rol y biografía aún. Use ${usedPrefix}personaje para empezar.`, fkontak, m);
-        }
+    return conn.reply(m.chat, `Registro completado:\n\n🎭 *Personaje:* ${personaje}\n📛 *Nombre:* ${nombre}\n📝 *Biografía:* ${biografia}\n🖼️ *Foto:*`, m);
+  }
+
+  if (command === 'mirol') {
+    if (!user.personaje || !user.nombre || !user.biografia || !user.foto) {
+      return conn.reply(m.chat, `Aún no has registrado tu rol. Usa el comando ${usedPrefix}personaje para registrarte.`, m);
     }
-}
+
+    let mensaje = `
+🔍 *Información de tu Rol:*
+📛 *Nombre:* ${user.nombre}
+🎭 *Personaje:* ${user.personaje}
+📝 *Biografía:* ${user.biografia}`;
+
+    await conn.sendMessage(m.chat, { image: { url: user.foto }, caption: mensaje }, { quoted: m });
+  }
+};
 
 handler.command = ['personaje', 'mirol'];
 export default handler;
