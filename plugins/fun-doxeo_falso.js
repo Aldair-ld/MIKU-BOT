@@ -2,19 +2,19 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
   let user = global.db.data.users[m.sender];
 
   if (command === 'personaje') {
-    let [personaje, nombre, biografia] = text.split('|').map(v => v.trim());
+    if (text.includes('|') && text.split('|').length === 3 && m.quoted && m.quoted.mtype === 'imageMessage') {
+      let [personaje, nombre, biografia] = text.split('|').map(v => v.trim());
+      let foto = m.quoted.url;
 
-    if (!personaje || !nombre || !biografia || !m.quoted || !m.quoted.mtype.includes('imageMessage')) {
-      return conn.reply(m.chat, `Uso incorrecto del comando. Por favor, usa el formato:\n .personaje|nombre|biografía\nY responde a este comando con una foto de tu personaje.`, m);
+      user.personaje = personaje;
+      user.nombre = nombre;
+      user.biografia = biografia;
+      user.foto = foto;
+
+      return conn.reply(m.chat, `Registro completado:\n\n🎭 *Personaje:* ${personaje}\n📛 *Nombre:* ${nombre}\n📝 *Biografía:* ${biografia}\n🖼️ *Foto:*`, m);
+    } else {
+      return conn.reply(m.chat, `Uso incorrecto del comando. Por favor, usa el formato:\n${usedPrefix}personaje personaje|nombre|biografía\nY responde a este comando con una foto de tu personaje.`, m);
     }
-
-    let foto = m.quoted.url;
-    user.personaje = personaje;
-    user.nombre = nombre;
-    user.biografia = biografia;
-    user.foto = foto;
-
-    return conn.reply(m.chat, `Registro completado:\n\n🎭 *Personaje:* ${personaje}\n📛 *Nombre:* ${nombre}\n📝 *Biografía:* ${biografia}\n🖼️ *Foto:*`, m);
   }
 
   if (command === 'mirol') {
