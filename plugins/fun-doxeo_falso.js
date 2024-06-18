@@ -23,16 +23,24 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
       return conn.reply(m.chat, `Aún no has registrado tu rol. Usa el comando ${usedPrefix}personaje para registrarte.`, m);
     }
 
+    // URL del video que quieres incluir en WhatsApp
+    let videoURL = 'https://ejemplo.com/video.mp4'; // Cambia por la URL real del video
+
     let mensaje = `
 🔍 *Información de tu Rol:*
 🎭 *Personaje:* ${user.personaje}
 📝 *Biografía:* ${user.biografia}`;
 
     try {
-      await conn.sendMessage(m.chat, { text: mensaje }, { quoted: m });
+      // Intentamos enviar el mensaje de texto primero
+      let msg = await conn.sendMessage(m.chat, { text: mensaje }, { quoted: m });
+
+      // Si se envía correctamente, intentamos enviar el video
+      await conn.sendFile(m.chat, videoURL, 'video.mp4', `🎥 *Video de ${user.personaje}*`, msg.id, true);
+
     } catch (error) {
-      console.error('Error al enviar mensaje:', error);
-      conn.reply(m.chat, 'Ocurrió un error al enviar el mensaje. Por favor, intenta de nuevo más tarde.', m);
+      console.error('Error al enviar mensaje o archivo:', error);
+      conn.reply(m.chat, 'Ocurrió un error al enviar el mensaje o el archivo. Por favor, intenta de nuevo más tarde.', m);
     }
   }
 };
