@@ -131,7 +131,7 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 
 global.vs = "1.8.5"
 global.vsJB = "3.0"
-global.gt = "*_𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳_*"
+global.gt = "𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳"
 
 global.canalofc = "https://whatsapp.com/channel/0029VafZvB6J3jv3qCnqNu3x"
 global.yt = "https://youtube.com/"
@@ -188,7 +188,7 @@ global.exito = eg
 
 //------------------------------------------------
 
-global.wm = "*_ALDAIR_*"
+global.wm = "ALDAIR"
 global.igfg = "*_𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳_*"
 global.wait = "⌛ *`Cargando...`*\n*✦✦⊹⊹⊹⊹⊹⊹⊹⊹✪* `[20%]`"
 global.waitt = "⏳ *`Cargando....`*\n*✦✦✦✦⊹⊹⊹⊹⊹⊹✪* `[40%]`"
