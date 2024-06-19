@@ -1,3 +1,7 @@
+import { createHash } from 'crypto';
+import PhoneNumber from 'awesome-phonenumber';
+import fetch from 'node-fetch';
+
 let handler = async (m, { conn, text, command, usedPrefix }) => {
   let user = global.db.data.users[m.sender];
 
@@ -23,8 +27,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
       return conn.reply(m.chat, `Aún no has registrado tu rol. Usa el comando ${usedPrefix}personaje para registrarte.`, m);
     }
 
-    // URL del video que quieres incluir en WhatsApp
-    let videoURL = 'https://telegra.ph/file/12769e8e49716515aea5c.mp4'; // Cambia por la URL real del video
+    let videoURL = 'https://telegra.ph/file/12769e8e49716515aea5c.mp4'; // URL del video que deseas enviar
 
     let mensaje = `
 🔍 *Información de tu Rol:*
@@ -32,11 +35,14 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
 📝 *Biografía:* ${user.biografia}`;
 
     try {
-      // Intentamos enviar el mensaje de texto primero
-      let msg = await conn.sendMessage(m.chat, { text: mensaje }, { quoted: m });
-
-      // Si se envía correctamente, intentamos enviar el video
-      await conn.sendFile(m.chat, videoURL, 'video.mp4', `🎥 *Video de ${user.personaje}*`, msg.id, true);
+      // Enviamos el mensaje de texto y el archivo de video juntos
+      await conn.sendMessage(m.chat, {
+        text: mensaje,
+        video: {
+          url: videoURL,
+          caption: `🎥 *Video de ${user.personaje}*`
+        }
+      }, { quoted: m });
 
     } catch (error) {
       console.error('Error al enviar mensaje o archivo:', error);
