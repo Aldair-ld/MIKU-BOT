@@ -24,7 +24,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
     }
 
     // URL del video que quieres incluir en WhatsApp
-    let videoURL = 'https://ejemplo.com/video.mp4'; // Cambia por la URL real del video
+    let videoURL = 'https://telegra.ph/file/12769e8e49716515aea5c.mp4'; // Cambia por la URL real del video
 
     let mensaje = `
 🔍 *Información de tu Rol:*
