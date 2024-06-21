@@ -36,25 +36,20 @@ const handler = async (m, { conn: natsuki, command, args, text, usedPrefix }) =>
 𖤍 ${yt_play[0].url}
 *✧══════•❁❀❁•══════✧*`.trim();
 
-        await natsuki.sendMessage(m.chat, { text: texto1 }, { quoted: fkontak });
+        let listSections = [];
+        listSections.push({
+            title: '𝚂𝙴𝙻𝙴𝙲𝙲𝙸𝙾𝙽𝙴 𝚂𝚄 𝚃𝙸𝙿𝙾 𝙳𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰 (*_GOKU_BOT - MD_*)',
+            rows: [
+                { title: "AUDIO (Opcion 1)", rowId: `${usedPrefix}yta ${yt_play[0].url}`, description: `${yt_play[0].title}` },
+                { title: "AUDIO (Opcion 2)", rowId: `${usedPrefix}play.1 ${yt_play[0].url}`, description: `${yt_play[0].title}` },
+                { title: "AUDIO DOC", rowId: `${usedPrefix}ytmp3doc ${yt_play[0].url}`, description: `${yt_play[0].title}` },
+                { title: "VIDEO (Opcion 1)", rowId: `${usedPrefix}ytv ${yt_play[0].url}`, description: `${yt_play[0].title}` },
+                { title: "VIDEO (Opcion 2)", rowId: `${usedPrefix}play.2 ${yt_play[0].url}`, description: `${yt_play[0].title}` },
+                { title: "VIDEO DOC", rowId: `${usedPrefix}ytmp4doc ${yt_play[0].url}`, description: `${yt_play[0].title}` }
+            ]
+        });
 
-        let buttons = [
-            { buttonId: `${usedPrefix}yta ${yt_play[0].url}`, buttonText: { displayText: 'AUDIO (Opcion 1)' }, type: 1 },
-            { buttonId: `${usedPrefix}play.1 ${yt_play[0].url}`, buttonText: { displayText: 'AUDIO (Opcion 2)' }, type: 1 },
-            { buttonId: `${usedPrefix}ytmp3doc ${yt_play[0].url}`, buttonText: { displayText: 'AUDIO DOC' }, type: 1 },
-            { buttonId: `${usedPrefix}ytv ${yt_play[0].url}`, buttonText: { displayText: 'VIDEO (Opcion 1)' }, type: 1 },
-            { buttonId: `${usedPrefix}play.2 ${yt_play[0].url}`, buttonText: { displayText: 'VIDEO (Opcion 2)' }, type: 1 },
-            { buttonId: `${usedPrefix}ytmp4doc ${yt_play[0].url}`, buttonText: { displayText: 'VIDEO DOC' }, type: 1 }
-        ];
-
-        let buttonMessage = {
-            text: `*SELECCIONE SU TIPO DE DESCARGA*`,
-            footer: 'GOKU_BOT - MD',
-            buttons: buttons,
-            headerType: 1
-        };
-
-        await natsuki.sendMessage(m.chat, buttonMessage, { quoted: fkontak });
+        await natsuki.sendMessage(m.chat, { text: texto1, footer: 'GOKU_BOT - MD', title: 'SELECCIONE SU TIPO DE DESCARGA', buttonText: 'OPCIONES', sections: listSections }, { quoted: fkontak });
     } catch (e) {
         await natsuki.reply(m.chat, `${lenguajeCD['smsMalError3']()}#report ${lenguajeCD['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, fkontak, m);
         console.log(`❗❗ ${lenguajeCD['smsMensError2']()} ${usedPrefix + command} ❗❗`);
@@ -84,6 +79,7 @@ function secondString(seconds) {
     const sDisplay = s > 0 ? s + (s == 1 ? ' segundo' : ' segundos') : '';
     return dDisplay + hDisplay + mDisplay + sDisplay;
 }
+
 
 
 
