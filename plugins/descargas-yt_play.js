@@ -2,27 +2,27 @@ import fetch from 'node-fetch';
 import yts from 'yt-search';
 import ytdl from 'ytdl-core';
 import axios from 'axios';
-import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
+import { youtubedl, youtubedlv2 } from '@bochilteam/scraper';
 
-const handler = async (m, {conn: natsuki, command, args, text, usedPrefix}) => {
-    let fkontak = { 
-        "key": { 
-            "participants":"0@s.whatsapp.net", 
-            "remoteJid": "status@broadcast", 
-            "fromMe": false, 
-            "id": "Halo" 
-        }, 
-        "message": { 
-            "contactMessage": { 
-                "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` 
+const handler = async (m, { conn: natsuki, command, args, text, usedPrefix }) => {
+    let fkontak = {
+        "key": {
+            "participants": "0@s.whatsapp.net",
+            "remoteJid": "status@broadcast",
+            "fromMe": false,
+            "id": "Halo"
+        },
+        "message": {
+            "contactMessage": {
+                "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
             }
-        }, 
-        "participant": "0@s.whatsapp.net" 
+        },
+        "participant": "0@s.whatsapp.net"
     };
 
     if (!text) throw `PARA USAR ESTE COMANDO DEBE USAR USARLO DE ESTA MANERA .play chachacha`;
 
-    try { 
+    try {
         const yt_play = await search(args.join(' '));
         const texto1 = `
 *AQUÍ ESTÁ* @${m.sender.replace(/@.+/, '')}
@@ -38,20 +38,23 @@ const handler = async (m, {conn: natsuki, command, args, text, usedPrefix}) => {
 
         await natsuki.sendMessage(m.chat, { text: texto1 }, { quoted: fkontak });
 
-        let options = `
-  𝚂𝙴𝙻𝙴𝙲𝙲𝙸𝙾𝙽𝙴 𝚂𝚄 𝚃𝙸𝙿𝙾 𝙳𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰 (*_GOKU_BOT - MD_*)
-  *AUDIO:*
-  1. ${usedPrefix}yta ${yt_play[0].url}
-  2. ${usedPrefix}play.1 ${yt_play[0].url}
-  3. ${usedPrefix}ytmp3doc ${yt_play[0].url}
+        let buttons = [
+            { buttonId: `${usedPrefix}yta ${yt_play[0].url}`, buttonText: { displayText: 'AUDIO (Opcion 1)' }, type: 1 },
+            { buttonId: `${usedPrefix}play.1 ${yt_play[0].url}`, buttonText: { displayText: 'AUDIO (Opcion 2)' }, type: 1 },
+            { buttonId: `${usedPrefix}ytmp3doc ${yt_play[0].url}`, buttonText: { displayText: 'AUDIO DOC' }, type: 1 },
+            { buttonId: `${usedPrefix}ytv ${yt_play[0].url}`, buttonText: { displayText: 'VIDEO (Opcion 1)' }, type: 1 },
+            { buttonId: `${usedPrefix}play.2 ${yt_play[0].url}`, buttonText: { displayText: 'VIDEO (Opcion 2)' }, type: 1 },
+            { buttonId: `${usedPrefix}ytmp4doc ${yt_play[0].url}`, buttonText: { displayText: 'VIDEO DOC' }, type: 1 }
+        ];
 
-  *VIDEO:*
-  1. ${usedPrefix}ytv ${yt_play[0].url}
-  2. ${usedPrefix}play.2 ${yt_play[0].url}
-  3. ${usedPrefix}ytmp4doc ${yt_play[0].url}
-  `.trim();
+        let buttonMessage = {
+            text: `*SELECCIONE SU TIPO DE DESCARGA*`,
+            footer: 'GOKU_BOT - MD',
+            buttons: buttons,
+            headerType: 1
+        };
 
-        await natsuki.sendMessage(m.chat, { text: options }, { quoted: fkontak });
+        await natsuki.sendMessage(m.chat, buttonMessage, { quoted: fkontak });
     } catch (e) {
         await natsuki.reply(m.chat, `${lenguajeCD['smsMalError3']()}#report ${lenguajeCD['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, fkontak, m);
         console.log(`❗❗ ${lenguajeCD['smsMensError2']()} ${usedPrefix + command} ❗❗`);
@@ -65,7 +68,7 @@ handler.command = ['play', 'play2', 'play3', 'play4'];
 export default handler;
 
 async function search(query, options = {}) {
-    const search = await yts.search({query, hl: 'es', gl: 'ES', ...options});
+    const search = await yts.search({ query, hl: 'es', gl: 'ES', ...options });
     return search.videos;
 }
 
