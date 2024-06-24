@@ -133,355 +133,356 @@ let menu = `╭──────༺♡༻──────╮
 ╰──────༺♡༻──────╯
 
 ╭──────༺♡༻──────╮
-        *INFO SOBRE EL BOT*
+     ✨INFO SOBRE EL BOT✨
 
-.terminosycondiciones
-.grupos
-.estado
-.infobot
-.speed
-.donar
-.owner
+║˟̫ːଽ*⃝̥.terminosycondiciones
+║˟̫ːଽ*⃝̥.grupos
+║˟̫ːଽ*⃝̥.estado
+║˟̫ːଽ*⃝̥.infobot
+║˟̫ːଽ*⃝̥.speed
+║˟̫ːଽ*⃝̥.donar
+║˟̫ːଽ*⃝̥.owner
 
-╰──────༺♡༻──────╯
+╰──────༺★༻──────╯
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 ╭──────༺♡༻──────╮
-    *REPORTAR COMANDOS*
+    REPORTAR COMANDOS
 
-.reporte texto 
-
-╰──────༺♡༻──────╯
-
-
-
-╭──────༺♡༻──────╮
-   *SER USUARIO PREMIUM*
-
-.listapremium | listprem
-.pase premium
+║🛑.reporte texto
 
 ╰──────༺♡༻──────╯
 
 
 
 ╭──────༺♡༻──────╮
-                 *JUEGOS*
+   👑SER USUARIO PREMIUM
 
-.mates noob   
-.ppt @tag
-.ttt nombre de tu sala
-.deltt salir de la sala
-.topgays
-.topotakus
-.toppajer@s
-.topput@s
-.topintegrantes
-.toplindos
-.topfamosos
-.topparejas
-.gay @tag
-.gay2 nombre @tag
-.lesbiana @tag
-.pajero @tag
-.pajera @tag
-.puto @tag
-.puta @tag
-.love @tag
-.rata @tag
-.doxear @tag
-.apostar cantidad
-.formarpareja
-.verdad
-.reto 
+║👑.listapremium | listprem
+║👑.pase premium
 
-╰──────༺♡༻──────╯
+╰──────༺★༻──────╯
 
 
 
 ╭──────༺♡༻──────╮
-       *CONFIGURACIONES*
+                 👾JUEGOS🕹️
 
-.on : off bienvenida 
-.on : off avisos 
-.on : off autonivel
-.on : off restringir 
-.on : off antillamar
-.on : off publico 
-.on : off autovisto
-.on : off temporal
-.on : off stickers
-.on : off autosticker
-.on : off reacciones
-.on : off audios 
-.on : off modocaliente
-.on : off antitoxicos
-.on : off antiver
-.on : off delete
-.on : off antifake
-.on : off antilink
-.on : off antilink2
-.on : off antitiktok
-.on : off antiyoutube
-.on : off antitelegram
-.on : off antifacebook
-.on : off antiinstagram
-.on : off pconly
-.on : off gconly
+║🕹️.mates noob   
+║🕹️.ppt @tag
+║🕹️.ttt nombre de tu sala
+║🕹️.deltt salir de la sala
+║🕹️.topgays
+║🕹️.topotakus
+║🕹️.toppajer@s
+║🕹️.topput@s
+║🕹️.topintegrantes
+║🕹️.toplindos
+║🕹️.topfamosos
+║🕹️.topparejas
+║🕹️.gay @tag
+║🕹️.gay2 nombre @tag
+║🕹️.lesbiana @tag
+║🕹️.pajero @tag
+║🕹️.pajera @tag
+║🕹️.puto @tag
+║🕹️.puta @tag
+║🕹️.love @tag
+║🕹️.rata @tag
+║🕹️.doxear @tag
+║🕹️.apostar cantidad
+║🕹️.formarpareja
+║🕹️.verdad
+║🕹️.reto 
 
-╰──────༺♡༻──────╯
+╰──────༺★༻──────╯
 
 
 
 ╭──────༺♡༻──────╮
-             *DESCARGAS*
 
- .imagen texto
- .pinterest texto
- .wallpaper texto
- .play texto 
- .play2 texto
- .ytmp3 link
- .ytmp4 link 
- .pdocaudio link
- .pdocvieo link
- .tiktok link
- .mediafire link
- .consejo
- .morse codificar texto
- .morse decodificar morse
- .fraseromantica
- .historia
+     🖇️CONFIGURACIONES🖇️
+
+║🖇️.on : off bienvenida 
+║🖇️.on : off avisos 
+║🖇️.on : off autonivel
+║🖇️.on : off restringir 
+║🖇️.on : off antillamar
+║🖇️.on : off publico 
+║🖇️.on : off autovisto
+║🖇️.on : off temporal
+║🖇️.on : off stickers
+║🖇️.on : off autosticker
+║🖇️.on : off reacciones
+║🖇️.on : off audios 
+║🖇️.on : off modocaliente
+║🖇️.on : off antitoxicos
+║🖇️.on : off antiver
+║🖇️.on : off delete
+║🖇️.on : off antifake
+║🖇️.on : off antilink
+║🖇️.on : off antilink2
+║🖇️.on : off antitiktok
+║🖇️.on : off antiyoutube
+║🖇️.on : off antitelegram
+║🖇️.on : off antifacebook
+║🖇️.on : off antiinstagram
+║🖇️.on : off pconly
+║🖇️.on : off gconly
+
+╰──────༺★༻──────╯
+
+
+
+╭──────༺♡༻──────╮
+          📥DESCARGAS📤
+
+║🌀 .imagen texto
+║🌀 .pinterest texto
+║🌀 .wallpaper texto
+║🌀 .play texto 
+║🌀 .play2 texto
+║🌀 .ytmp3 link
+║🌀 .ytmp4 link 
+║🌀 .pdocaudio link
+║🌀 .pdocvieo link
+║🌀 .tiktok link
+║🌀 .mediafire link
+║🌀 .consejo
+║🌀 .morse codificar texto
+║🌀 .morse decodificar morse
+║🌀 .fraseromantica
+║🌀 .historia
  
-╰──────༺♡༻──────╯
+╰──────༺★༻──────╯
 
 
 
 ╭──────༺♡༻──────╮
-             *BÚSQUEDAS*
+             🔍BÚSQUEDAS🔎
              
-.ipinfo 4.4.4.4
+║🔎.ipinfo 4.4.4.4
+
+╰──────༺★༻──────╯
+
+
+
+╭──────༺♡༻──────╮
+       🕵️CHATS ANONIMOS🕵️
+
+║🕵️.start
+║🕵️.next
+║🕵️.leave
+
+╰──────༺★༻──────╯
+
+
+
+╭──────༺♡༻──────╮
+   COMANDOS DE GRUPOS💫
+
+║💎 .add numero 
+║💎 .sacar | ban | kick @tag
+║💎 .grupo abrir
+║💎 .grupo cerrar
+║💎 .daradmin @tag
+║💎 .quitar @tag
+║💎 .banchat
+║💎 .unbanchat
+║💎 .banuser @tag
+║💎 .unbanuser @tag
+║💎 .admins texto
+║💎 .invocar texto
+║💎 .tagall texto
+║💎 .hidetag texto
+║💎 .infogrupo
+║💎 .grupotiempo cantidad
+║💎 .advertencia @tag
+║💎 .deladvertencia @tag
+║💎 .enlace link 
+║💎 .newnombre texto
+║💎 .newdesc texto
+║💎 .setwelcome texto de bienvenida
+║💎 .setbye texto de despedida 
+║💎 .nuevoenlace
+
+╰──────༺★༻──────╯
+
+
+
+╭──────༺♡༻──────╮
+      ♣︎CONVERTIDORES♣︎
+
+║ 💱.img sticker
+║💱 .toanime texto
+║💱 .tovn audio o video
+║💱 .tovideo audios 
+║💱 .tourl
+║💱 .toenlace video o audio 
+║💱 .tts texto 
+
+╰──────༺★༻──────╯
+
+
+
+╭──────༺♡༻──────╮
+                ✨EFECTOS✨
+
+║👾.simpcard @tag
+║👾.hornycard @tag
+║👾.lolice @tag
+║👾.ytcomment texto
+║👾.itssostupid
+
+╰──────༺★༻──────╯
+
+
+
+╭──────༺♡༻──────╮
+          IMAGEN RANDOM🧞‍♂️
+
+║💫.chica
+║💫.chico
+║💫.cristianoronaldo
+║💫.messi
+║💫.meme
+║💫.meme2
+║💫.itzy
+║💫.blackpink
+║💫.lolivid
+║💫.loli
+║💫.navidad
+║💫.ppcouple
+║💫.neko
+║💫.waifu
+║💫.chiho 
+║💫.elaina
+║💫.eba
+║💫.cosplay
+
+╰──────༺★༻──────╯
+
+
+
+╭──────༺♡༻──────╮
+     EFECTOS DE AUDIOS 🤖
+
+║✨.bass
+║✨.blown
+║✨.deep
+║✨.earrape
+║✨.fast
+║✨.fat
+║✨.nightcore
+║✨.reverse
+║✨.robot
+║✨.slow
+║✨.smooth
+║✨.tupai
+
+╰──────༺★༻──────╯
+
+
+
+╭──────༺♡༻──────╮
+              ECONOMIA 💸
+
+💸.pase premium
+💸.pass premium
+💸.listapremium
+💸.tranferir tipo cantidad @tag
+💸.dar tipo cantidad @tag
+💸.enviar tipo cantidad @tag
+💸.balance 
+💸.cartera
+💸.experiencia
+💸.top 
+💸.nivel
+💸.rol
+💸.inventario
+💸.aventura
+💸.caza
+💸.pescar
+💸.animales
+💸.alimentos 
+💸.curar
+💸.buy
+💸.sell
+💸.verificar
+💸.perfil
+💸.myns
+💸.unreg número de serie
+💸.minardiamantes
+💸.minarexperiencia
+💸.minar : minar2 : minar3
+💸.reclamar 
+💸.cadahora
+💸.cadasemana
+💸.cadames
+💸.cofre
+💸.trabajar
+
+* COMANDOS AGREGADOS
+
+💸..banco
+💸.depositar cantidad
+💸.retirar cantidad 
+
 
 ╰──────༺♡༻──────╯
 
 
 
 ╭──────༺♡༻──────╮
-       *CHATS ANONIMOS*
+                 OWNER🕵🏻
 
-.start
-.next
-.leave
-
-╰──────༺♡༻──────╯
-
-
-
-╭──────༺♡༻──────╮
-   *COMANDOS DE GRUPOS*
-
- .add numero 
- .sacar | ban | kick @tag
- .grupo abrir
- .grupo cerrar
- .daradmin @tag
- .quitar @tag
- .banchat
- .unbanchat
- .banuser @tag
- .unbanuser @tag
- .admins texto
- .invocar texto
- .tagall texto
- .hidetag texto
- .infogrupo
- .grupotiempo cantidad
- .advertencia @tag
- .deladvertencia @tag
- .enlace link 
- .newnombre texto
- .newdesc texto
- .setwelcome texto de bienvenida
- .setbye texto de despedida 
- .nuevoenlace
-
-╰──────༺♡༻──────╯
-
-
-
-╭──────༺♡༻──────╮
-        *CONVERTIDORES*
-
- .img sticker
- .toanime texto
- .tovn audio o video
- .tovideo audios 
- .tourl
- .toenlace video o audio 
- .tts texto 
-
-╰──────༺♡༻──────╯
-
-
-
-╭──────༺♡༻──────╮
-                *EFECTOS*
-
-.simpcard @tag
-.hornycard @tag
-.lolice @tag
-.ytcomment texto
-.itssostupid
-
-╰──────༺♡༻──────╯
-
-
-
-╭──────༺♡༻──────╮
-                *RANDOM*
-
-.chica
-.chico
-.cristianoronaldo
-.messi
-.meme
-.meme2
-.itzy
-.blackpink
-.lolivid
-.loli
-.navidad
-.ppcouple
-.neko
-.waifu
-.chiho
-.elaina
-.eba
-.cosplay
-
-╰──────༺♡༻──────╯
-
-
-
-╭──────༺♡༻──────╮
-     *EFECTOS DE AUDIOS*
-
-.bass
-.blown
-.deep
-.earrape
-.fast
-.fat
-.nightcore
-.reverse
-.robot
-.slow
-.smooth
-.tupai
-
-╰──────༺♡༻──────╯
-
-
-
-╭──────༺♡༻──────╮
-              *ECONOMIA*
-
-.pase premium
-.pass premium
-.listapremium
-.tranferir tipo cantidad @tag
-.dar tipo cantidad @tag
-.enviar tipo cantidad @tag
-.balance 
-.cartera
-.experiencia
-.top 
-.nivel
-.rol
-.inventario
-.aventura
-.caza
-.pescar
-.animales
-.alimentos 
-.curar
-.buy
-.sell
-.verificar
-.perfil
-.myns
-.unreg número de serie
-.minardiamantes
-.minarexperiencia
-.minar : minar2 : minar3
-.reclamar 
-.cadahora
-.cadasemana
-.cadames
-.cofre
-.trabajar
-
-* *COMANDOS AGREGADOS*
-
-.banco
-.depositar cantidad
-.retirar cantidad 
-
-
-╰──────༺♡༻──────╯
-
-
-
-╭──────༺♡༻──────╮
-                 *OWNER*
-
-.autoadmin
-.grouplist
-.chetar
-.addowner @tag
-.delowner @tag
-.block @tag
-.unblock @tag
-.msg texto
-.banchat
-.unbanchat
-.banuser @tag
-.unbanuser @tag
-.dardiamantes @tag cantidad 
-.añadirxp @tag cantidad 
-.bc texto
-.bcchats texto
-.bcgc texto
-.bcgc2 audio
-.bcgc2 video
-.bcgc2 imagen 
-.bcbot texto
-.restart
-.update
-.banlist
-.addprem @tag
-.addprem2 @tag
-.addprem3 @tag
-.addprem4 @tag
-.delprem @tag
-.listcmd
-.setppbot
-.addcmd texto
-.delcmd
-.saveimage
-.viewimage
-
-╰──────༺♡༻──────╯
+║˟̫ːଽ*⃝̥.♠︎ autoadmin
+║˟̫ːଽ*⃝̥.♠︎ grouplist
+║˟̫ːଽ*⃝̥.♠︎ chetar
+║˟̫ːଽ*⃝̥♠︎.addowner @tag
+║˟̫ːଽ*⃝̥♠︎.delowner @tag
+║˟̫ːଽ*⃝̥♠︎.block @tag
+║˟̫ːଽ*⃝̥♠︎.unblock @tag
+║˟̫ːଽ*⃝̥♠︎.msg texto
+║˟̫ːଽ*⃝̥♠︎.banchat
+║˟̫ːଽ*⃝̥♠︎.unbanchat
+║˟̫ːଽ*⃝̥♠︎.banuser @tag
+║˟̫ːଽ*⃝̥♠︎.unbanuser @tag
+║˟̫ːଽ*⃝̥♠︎.dardiamantes @tag cantidad 
+║˟̫ːଽ*⃝̥♠︎.añadirxp @tag cantidad 
+║˟̫ːଽ*⃝̥♠︎.bc texto
+║˟̫ːଽ*⃝̥♠︎.bcchats texto
+║˟̫ːଽ*⃝̥♠︎.bcgc texto
+║˟̫ːଽ*⃝̥♠︎.bcgc2 audio
+║˟̫ːଽ*⃝̥♠︎.bcgc2 video
+║˟̫ːଽ*⃝̥♠︎.bcgc2 imagen 
+║˟̫ːଽ*⃝̥♠︎.bcbot texto
+║˟̫ːଽ*⃝̥❀♠︎.restart
+║˟̫ːଽ*⃝̥❀♠︎.update
+║˟̫ːଽ*⃝̥❀♠︎.banlist
+║˟̫ːଽ*⃝̥❀♠︎.addprem @tag
+║˟̫ːଽ*⃝̥❀♠︎.addprem2 @tag
+║˟̫ːଽ*⃝̥❀♠︎.addprem3 @tag
+║˟̫ːଽ*⃝̥❀♠︎.addprem4 @tag
+║˟̫ːଽ*⃝̥❀♠︎.delprem @tag
+║˟̫ːଽ*⃝̥❀♠︎.listcmd
+║˟̫ːଽ*⃝̥❀♠︎.setppbot
+║˟̫ːଽ*⃝̥❀♠︎.addcmd texto
+║˟̫ːଽ*⃝̥❀♠︎.delcmd
+║˟̫ːଽ*⃝̥❀♠︎.saveimage
+║˟̫ːଽ*⃝̥❀♠︎.viewimage
+║˟̫ːଽ*⃝̥❀♠︎  .viewimage
+╰──────༺★༻──────╯
 
 
 
 
-╭──────༺♡༻──────╮
+╭──────༺♧༻──────╮
 ESO ES TODOS LOS COMANDOS
-╰──────༺♡༻──────╯
+╰──────༺♧༻──────╯
 
 
-*DESAROLLADO POR ALDAIR*`.trim()
+*> DESAROLLADO POR ALDAIR*`.trim()
 //await conn.sendFile(m.chat, fantasyImg, 'lp.jpg', menu, fake0, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 𝙉𝙖𝙩𝙨𝙪𝙠𝙞𝘽𝙤𝙩 ', previewType: 0, thumbnail: picture, sourceUrl: nn }}})
 //await conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fake0)
 
