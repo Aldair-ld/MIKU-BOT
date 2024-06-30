@@ -32,7 +32,7 @@ let handler = async (m, { usedPrefix, command, args, conn }) => {
     case 'banco':
       let bankMessage = `
        ╭──────༺♡༻──────╮
-       *𝙱𝙰𝙽𝙲𝙾 𝙳𝙴 𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳*
+       *𝙱𝙰𝙽𝙲𝙾 𝙳𝙴 𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾*
         
     *👤 𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${name}
     *💎 𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴𝚂:* ${user.limit} 💎
@@ -40,7 +40,7 @@ let handler = async (m, { usedPrefix, command, args, conn }) => {
 
     *💰 DIAMANTES GUARDADOS:* ${user.banco || 0} 💰
 
-    *CON EL BANCO DE 𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 SUS DIAMANTES ESTARÁN A SALVO*
+    *CON EL BANCO DE 𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾 SUS DIAMANTES ESTARÁN A SALVO*
        ╰──────༺♡༻──────╯`.trim();
 
       conn.sendMessage(
@@ -57,7 +57,7 @@ let handler = async (m, { usedPrefix, command, args, conn }) => {
               sourceUrl: "http://paypal.me/DorratBotOficial",
               mediaType: 1,
               showAdAttribution: true,
-              thumbnailUrl: "https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg",
+              thumbnailUrl: "https://telegra.ph/file/e03b204f3385e1edb9e1d.jpg",
             },
           },
         },
