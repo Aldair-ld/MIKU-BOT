@@ -104,8 +104,8 @@ global.desc = '' // Add short description (20 caractres max)
 global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se aplicará sólo si su whasapp no tiene descripción)
 global.country = '' // Add country, example: 🇪🇨
 //------------------------------------------------
-global.fantasy = "*_𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳_* " // new name
-global.wilmerofc = "*_𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳_* " // fkontak2
+global.fantasy = "*𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾* " // new name
+global.wilmerofc = "*𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾* " // fkontak2
 global.packname = `ALDAIR \n├┈ ⟴ 𝚈𝚘𝚞𝚃𝚞𝚋𝚎:\n├┈ \n├┈ ⟴ 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n├┈ @aldair_dki\n╰⊱⊶⊷⊶⊷⊶⊷⊶⊷⇲⊰⌏`
 global.author =  ` ALDAIR \n├┈⟴ 𝙶𝚒𝚝𝙷𝚞𝚋:\n├┈ \n├┈ ⟴ 𝙿𝚊𝚢𝙿𝚊𝚕:\n├┈ \n╰⊱⊶⊷⊶⊷⊶⊷⊶⊷⇲⊰⌏`
 
@@ -131,7 +131,7 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 
 global.vs = "1.8.5"
 global.vsJB = "3.0"
-global.gt = "𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳"
+global.gt = "𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾"
 
 global.canalofc = "https://whatsapp.com/channel/0029VafZvB6J3jv3qCnqNu3x"
 global.yt = "https://youtube.com/"
@@ -189,7 +189,7 @@ global.exito = eg
 //------------------------------------------------
 
 global.wm = "ALDAIR"
-global.igfg = "*_𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳_*"
+global.igfg = "𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾"
 global.wait = "⌛ *`Cargando...`*\n*✦✦⊹⊹⊹⊹⊹⊹⊹⊹✪* `[20%]`"
 global.waitt = "⏳ *`Cargando....`*\n*✦✦✦✦⊹⊹⊹⊹⊹⊹✪* `[40%]`"
 global.waittt = "⌛ *`Cargando...`*\n*✦✦✦✦✦✦⊹⊹⊹⊹✪* `[60%]`"
@@ -215,29 +215,29 @@ global.imagen11 = fs.readFileSync("./media/menus/img10.jpg")
 global.imagen12 = fs.readFileSync("./media/menus/img11.jpg")
 global.imagen13 = fs.readFileSync("./media/menus/img12.jpg")
 
-global.img = 'https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg'
-global.img2 = 'https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg'
+global.img = 'https://telegra.ph/file/290aafc8df206dbea0fd8.mp4'
+global.img2 = 'https://telegra.ph/file/290aafc8df206dbea0fd8.mp4'
 
 global.img3 = 'https://i.imgur.com/oUAGYc2.jpg' //prem
 global.img4 = 'https://i.imgur.com/i0pccuo.jpg' //prem
 
-global.img5 = 'https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg'
-global.img6 = 'https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg'
-global.img7 = 'https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg'
-global.img8 = 'https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg'
-global.img9 = 'https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg'
+global.img5 = 'https://telegra.ph/file/290aafc8df206dbea0fd8.mp4'
+global.img6 = 'https://telegra.ph/file/290aafc8df206dbea0fd8.mp4'
+global.img7 = 'https://telegra.ph/file/290aafc8df206dbea0fd8.mp4'
+global.img8 = 'https://telegra.ph/file/290aafc8df206dbea0fd8.mp4'
+global.img9 = 'https://telegra.ph/file/290aafc8df206dbea0fd8.mp4'
 
-global.img10 = 'https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg'
-global.img11 = 'https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg'
-global.img12 = 'https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg'
+global.img10 = 'https://telegra.ph/file/290aafc8df206dbea0fd8.mp4'
+global.img11 = 'https://telegra.ph/file/290aafc8df206dbea0fd8.mp4'
+global.img12 = 'https://telegra.ph/file/290aafc8df206dbea0fd8.mp4'
 global.img13 = 'https://i.imgur.com/pCfFOgw.jpeg'
-global.img14 = 'https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg'
-global.img15 = 'https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg'
+global.img14 = 'https://telegra.ph/file/290aafc8df206dbea0fd8.mp4'
+global.img15 = 'https://telegra.ph/file/290aafc8df206dbea0fd8.mp4'
 
-global.img16 = 'https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg' //+18
+global.img16 = 'https://telegra.ph/file/290aafc8df206dbea0fd8.mp4' //+18
 
-global.img17 = 'https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg'
-global.img18 = 'https://telegra.ph/file/6504bcd49f292ee6b3ec3.jpg'
+global.img17 = 'https://telegra.ph/file/290aafc8df206dbea0fd8.mp4'
+global.img18 = 'https://telegra.ph/file/290aafc8df206dbea0fd8.mp4'
 
 global.logogit = 'https://tinyurl.com/2qvl9vgs'
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
