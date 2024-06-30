@@ -83,7 +83,7 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 if (!/web|desktop|unknown/gi.test(dispositivo)) {  
 let menu = `
 
-*BIENVENIDO A *_𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳_*
+*BIENVENIDO A *𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾*
 
 
  ᴇᴄᴏɴᴏᴍɪ́ᴀ ꙰
@@ -92,46 +92,30 @@ let menu = `
 \`GokuCoins:\` ${money} 💵
 \`Tokens:\` ${joincount} 🪙
 
-*_𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳_*`.trim()
+*𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾*`.trim()
 
 const buttonParamsJson = JSON.stringify({
 title: lenguajeCD['smsListaMenu'](),
 description: "Infórmate por medios",
 sections: [
-{ title: "(𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳) 𝙄𝙣𝙛𝙤 𝘽𝙤𝙩 🔮",
+{ title: "(𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾) 𝙄𝙣𝙛𝙤 𝘽𝙤𝙩 🔮",
 rows: [
 { header: lenguajeCD['smsLista1'](), title: "", description: "INFORMACIÓN DEL BOT", id: usedPrefix + "estado" }
 ]},
-{ title: "(𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳) 𝙄𝙣𝙛𝙤 𝙑𝙚𝙡𝙤𝙘𝙞𝙙𝙖𝙙 🍄",
-rows: [
-{ header: lenguajeCD['smsLista4'](), title: "", description: "𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝙲𝙸𝙾𝙽 𝙳𝙴 𝙻𝙰 𝚅𝙴𝙻𝙸𝙲𝙸𝙳𝙰𝙳 𝙳𝙴𝙻 𝙱𝙾𝚃", id: usedPrefix + "velocidad" }
-]},
-{ title: "(𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳) 𝙄𝙣𝙛𝙤 𝘾𝙧𝙚𝙖𝙙𝙤𝙧 🍃",
+{ title: "(𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾) 𝙄𝙣𝙛𝙤 𝘾𝙧𝙚𝙖𝙙𝙤𝙧 🍃",
 rows: [
 { header: lenguajeCD['smsLista2'](), title: "", description: "𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝙲𝙸𝙾𝙽 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁", id: usedPrefix + "owner" }
 ]},
-{ title: "(𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳) 𝙄𝙣𝙛𝙤 𝘿𝙤𝙣𝙖𝙧 🍁",
-rows: [
-{ header: lenguajeCD['smsLista3'](), title: "", description: "𝙰𝙿𝙾𝚈𝙰𝚁 𝙰 𝙽𝚄𝚁𝚂𝚃𝚁𝙾 𝙿𝚁𝙾𝚈𝙴𝙲𝚃𝙾", id: usedPrefix + "donar" }
-]},
-{ title: "(𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳) 𝙄𝙣𝙛𝙤 𝙈𝙚𝙣𝙪́𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 📚",
+{ title: "(𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾) 𝙄𝙣𝙛𝙤 𝙈𝙚𝙣𝙪́𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 📚",
 rows: [
 { header: lenguajeCD['smsLista6'](), title: "", description: "𝙸𝙽𝙵𝙾 𝙳𝙴 𝚃𝙾𝙳𝙰 𝙻𝙰 𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂", id: usedPrefix + "menu2" }
 ]},
-{ title: "(𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳) 𝙄𝙣𝙛𝙤 𝙈𝙚𝙣𝙪 𝙡𝙖 𝙗𝙞𝙗𝙡𝙞𝙖 🥵",
-rows: [
-{ header: lenguajeCD['smsLista30'](), title: "", description: "𝙸𝙽𝙵𝙾(𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 +18", id: usedPrefix + "labiblia" }
-]},
-{ title: "(𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳) 𝙈𝙚𝙣𝙪 𝙥𝙖𝙧𝙖 𝙢𝙞 𝘾𝙧𝙚𝙖𝙙𝙤𝙧 👑",
-rows: [
-{ header: lenguajeCD['smsLista35'](), title: "", description: "𝙼𝙴𝙽𝚄 𝙿𝙰𝚁𝙰 𝙼𝙸 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾", id: usedPrefix + "menuowner" }
-]}
 ]})
 const interactiveMessage = {
 body: { text: menu },
 footer: { text: fantasy + ` \n` },
 header: { title: `
-     ╰ᴍᴇɴᴜ́:\n*_𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳_*
+     ╰ᴍᴇɴᴜ́:\n*𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾*
  ┈──❊:::::::¨¨*:::::::❊──┈\n_${global.saludo}_`, subtitle: "test4", hasMediaAttachment: false },
 nativeFlowMessage: { buttons: [{ 
 name: "single_select",
