@@ -17,8 +17,8 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   if (!age) throw '✳️ 𝙻𝚊 𝚎𝚍𝚊𝚍 𝚗𝚘 𝚙𝚞𝚎𝚍𝚎 𝚎𝚜𝚝á𝚛 𝚟𝚊𝚌í𝚊.';
   if (name.length >= 30) throw '✳️ El nombre es muy largo.'; 
   age = parseInt(age);
-  if (age > 100) throw '👴🏻 ¡𝚄𝚗 𝚟𝚒𝚎𝚓𝚒𝚝𝚘 𝚚𝚞𝚒𝚎𝚛𝚎 𝚓𝚞𝚐𝚊𝚛 𝚊𝚕 𝚋𝚘𝚝!';
-  if (age < 5) throw '🚼 ¡𝙲𝚑𝚒𝚜𝚝𝚘𝚜𝚒𝚝𝚘! 𝚓𝚊𝚓𝚊𝚓𝚊';
+  if (age > 100) throw 'SU EDAD ES MUY LARGA INGRESE UNA MAS CORTA ';
+  if (age < 5) throw 'JAAAA QUE CHISTRIS INGRESE UNA EDAD VALIDAD ';
   
   user.name = name.trim();
   user.age = age;
