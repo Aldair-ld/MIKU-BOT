@@ -103,10 +103,10 @@ ciudad = 'Lima'
 let menu = `╭──────༺♡༻──────╮
    𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾 𝙰𝙻 𝙼𝙴𝙽𝚄 𝙳𝙴  
 
-   *_𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳_*
+   *𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾*
 ╰──────༺♡༻──────╯
 
- • ${fantasy}${conn.user.jid == global.conn.user.jid ? '' : `\n *_𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳_* 𝑺𝒖𝒃 𝑩𝒐𝒕 ⇢ wa.me/+${global.conn.user.jid.split`@`[0]}`}
+ • ${fantasy}${conn.user.jid == global.conn.user.jid ? '' : `\n *𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾* 𝑺𝒖𝒃 𝑩𝒐𝒕 ⇢ wa.me/+${global.conn.user.jid.split`@`[0]}`}
 
 ➯ *HOLA: ⁨${taguser}*
 ➯ *FECHA ACTUAL:* \`${formatDate}\`
@@ -126,7 +126,7 @@ let menu = `╭──────༺♡༻──────╮
 ➢ 🥇 EXPERIENCIA  ➪ ${exp}
 ➢  ♠ RANGO ➪ ${role}
 ➢ 💎 DIAMANTES ➪ ${limit}
-➢ ✨ GOKUCOINS ➪ ${money}
+➢ ✨ COINS ➪ ${money}
 ➢ 💵 DOLARES  ➪ ${joincount}
 ➢ 👑 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 ➪ ${user.premiumTime > 0 ? '✅' : '❌ _' + usedPrefix + 'pase premium_'}
 
@@ -486,9 +486,9 @@ ESO ES TODOS LOS COMANDOS
 //await conn.sendFile(m.chat, fantasyImg, 'lp.jpg', menu, fake0, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 𝙉𝙖𝙩𝙨𝙪𝙠𝙞𝘽𝙤𝙩 ', previewType: 0, thumbnail: picture, sourceUrl: nn }}})
 //await conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fake0)
 
-const natsuki = ['https://telegra.ph/file/39c8501fb4d6824739610.mp4',
-'https://telegra.ph/file/5381e2bf05e765441038a.mp4',
-'https://telegra.ph/file/5381e2bf05e765441038a.mp4']
+const natsuki = ['https://telegra.ph/file/fbc25fa321371ece32103.mp4',
+'https://telegra.ph/file/4727284b2f2f1cd4a3ea1.mp4',
+'https://telegra.ph/file/4727284b2f2f1cd4a3ea1.mp4']
 
 await conn.sendMessage(m.chat, { video: { url: natsuki.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fake0 }) 
 
