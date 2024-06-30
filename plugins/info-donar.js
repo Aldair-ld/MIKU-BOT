@@ -2,7 +2,7 @@ let media = './media/menus/Menu1.jpg'
 let handler = async (m, { conn, command }) => {
 let user = db.data.users[m.sender]
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-let str = `HOLA TE SALUDA ALDAIR CREADOR DE *_𝙶𝙾𝙺𝚄_𝙱𝙾𝚃 - 𝙼𝙳_*
+let str = `HOLA TE SALUDA ALDAIR CREADOR DE *𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾*
 
 AGRADEZCO QUE HAYAS USADO ESTE COMANDO SEGURO PARA DONAR ALGO 
 
@@ -13,7 +13,7 @@ await conn.sendButton(m.chat, str, `𝙰𝚂𝙸𝚂𝚃𝙴𝙽𝙲𝙸𝙰\n${
 ['𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂 🔰', '.grupos'],
 ['𝙲𝚁𝙴𝙰𝙳𝙾𝚁 💗', '#owner'],
 ['𝚅𝙾𝙻𝚅𝙴𝚁 𝙰𝙻 𝙼𝙴𝙽𝚄 ☘️', '/menu']], null, [
-['𝙳𝙾𝙽𝙰𝚁 🌺', `https://paypal.me/wilmermacu1`]], fkontak)}
+['𝙳𝙾𝙽𝙰𝚁 🌺', `https://paypal.me/`]], fkontak)}
 /*conn.sendMessage(m.chat, { 
 text: str, 
 contextInfo:{
