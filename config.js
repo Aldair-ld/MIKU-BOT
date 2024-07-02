@@ -11,9 +11,9 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 
 // [ Agrega el número que será Bot y los que serán propietarios. ]
 global.owner = [
-["51925015528", 'Aldair ofc', true],
-["51925015528"], 
-["51925015528"]
+["5493405438423", 'Lobo ofc', true],
+[
+[
 ]
 
 global.mods = []
@@ -93,21 +93,21 @@ global.moment = moment
 //------------------------------------------------
 
 global.official = [
-["51925015528", 'Aldair ofc', 1], 
-["51925015528", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-["51925015528", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
-["51925015528", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
-["51925015528", 'Soporte', 1]]
+["5493405438423", 'Lobo ofc', 1], 
+["5493405438423", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
+["5493405438423", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
+["5493405438423", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
+["5493405438423", 'Soporte', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
 global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se aplicará sólo si su whasapp no tiene descripción)
 global.country = '' // Add country, example: 🇪🇨
 //------------------------------------------------
-global.fantasy = "*𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾* " // new name
-global.wilmerofc = "*𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾* " // fkontak2
-global.packname = `ALDAIR \n├┈ ⟴ 𝚈𝚘𝚞𝚃𝚞𝚋𝚎:\n├┈ \n├┈ ⟴ 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n├┈ @aldair_dki\n╰⊱⊶⊷⊶⊷⊶⊷⊶⊷⇲⊰⌏`
-global.author =  ` ALDAIR \n├┈⟴ 𝙶𝚒𝚝𝙷𝚞𝚋:\n├┈ \n├┈ ⟴ 𝙿𝚊𝚢𝙿𝚊𝚕:\n├┈ \n╰⊱⊶⊷⊶⊷⊶⊷⊶⊷⇲⊰⌏`
+global.fantasy = "*MIKU - NAKANO* " // new name
+global.wilmerofc = "*MIKU - NAKANO* " // fkontak2
+global.packname = `LOBO \n├┈ ⟴ 𝚈𝚘𝚞𝚃𝚞𝚋𝚎:\n├┈ \n├┈ ⟴ 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n├┈ @lobo_ofc\n╰⊱⊶⊷⊶⊷⊶⊷⊶⊷⇲⊰⌏`
+global.author =  ` LOBO \n├┈⟴ 𝙶𝚒𝚝𝙷𝚞𝚋:\n├┈ \n├┈ ⟴ 𝙿𝚊𝚢𝙿𝚊𝚕:\n├┈ \n╰⊱⊶⊷⊶⊷⊶⊷⊶⊷⇲⊰⌏`
 
 
 
@@ -132,11 +132,10 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 global.vs = "1.8.5"
 global.vsJB = "3.0"
 global.gt = "𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾"
-
-global.canalofc = "https://whatsapp.com/channel/0029VafZvB6J3jv3qCnqNu3x"
+global.cn = "https://whatsapp.com/channel/0029VaXDEwlC1FuFm82otA0K"
 global.yt = "https://youtube.com/"
-global.yt2 = "https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s"
-global.ig = "https://www.instagram.com/"
+global.yt2 = "https://
+global.ig = "https://www.instagram.com/lobo_random_oficial?utm_source=qr&igsh=NjV1ZnNhOXU1YjBs
 global.md = "https://github.com/"
 global.fb = "https://www.facebook.com/groups/1039865800178898/?ref=share"
 global.tk = "https://www.tiktok.com/"
@@ -188,8 +187,8 @@ global.exito = eg
 
 //------------------------------------------------
 
-global.wm = "ALDAIR"
-global.igfg = "𝚄𝚁𝙰𝙱𝙴 - 𝙼𝙸𝙺𝙾𝚃𝙾"
+global.wm = "LOBO"
+global.igfg = "MIKU - NAKANO"
 global.wait = "⌛ *`Cargando...`*\n*✦✦⊹⊹⊹⊹⊹⊹⊹⊹✪* `[20%]`"
 global.waitt = "⏳ *`Cargando....`*\n*✦✦✦✦⊹⊹⊹⊹⊹⊹✪* `[40%]`"
 global.waittt = "⌛ *`Cargando...`*\n*✦✦✦✦✦✦⊹⊹⊹⊹✪* `[60%]`"
