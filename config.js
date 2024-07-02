@@ -19,7 +19,7 @@ global.owner = [
 global.mods = []
 global.prems = []
 
-global.tagusario = ['51925015528'];
+global.tagusario = ['5493405438423];
 
 global.obtenerQrWeb = 0; //1 o 0
 global.keepAliveRender = 0; // 1 o 0
