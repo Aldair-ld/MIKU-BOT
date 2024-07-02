@@ -12,7 +12,7 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ Agrega el número que será Bot y los que serán propietarios. ]
 global.owner = [
 ["5493405438423", 'Lobo ofc', true],
-[
+["526221708812"]
 [
 ]
 
