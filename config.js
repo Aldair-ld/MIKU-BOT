@@ -13,8 +13,6 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 global.owner = [
 ["5493405438423", 'Lobo ofc', true],
 ["526221708812"]
-[
-]
 
 global.mods = []
 global.prems = []
